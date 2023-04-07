@@ -1,4 +1,5 @@
 import './App.css';
+import Sidebar from './Sidebar';
 
 function App() {
   return (
@@ -6,7 +7,7 @@ function App() {
     //BEM naming convection
     <div className="app">
       <div className='app_body'>
-           {/* Sidebar */}
+           <Sidebar/>
            {/* Chat */}
 
       </div>
